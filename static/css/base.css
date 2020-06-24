@@ -2,11 +2,11 @@ html, body{
    padding:0px;
    margin:0px;
    font-family: 'Raleway', sans-serif;
-   color:#195401;
+   color:white;
    height:100%;
 }
 body{
-   background:rgba(0, 0, 0, 0); 
+   background:rgba(0, 0, 0, 0);
 }
 
 #s1{
@@ -30,15 +30,18 @@ body{
 #s4{
    width: 90%;
    height: 20%;
-   float: left;   
+   float: left;
    display: flex;
 }
 
 .container{
    max-width:200px;
+   /*background:rgba(192,192,192,0.3);*/
    margin:55px;
    padding:10px 0px 20px 0px;
+   /*border:1px solid #111;*/
    border-radius:4px;
+   /*box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);*/
 }
 .link{
    font-size:16px;
@@ -68,7 +71,7 @@ body{
    left:100%;
 }
 .link .text{
-   text-shadow:0px -40px 0px rgba(0, 0, 0, 1);
+   text-shadow:0px -40px 0px white;
    transition:all 0.75s;
    transform:translateY(100%) translateZ(0);
    transition-delay:all 0.25s;
