@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>Format</title>
+  	<meta charset="UTF-8">
+
+  	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+	<div id="s1">
+		<div class="container">
+				<div class="link">
+					<div class="text">Home</div>
+				</div>
+	  			<div class="link">
+	    			<div class="text">Projects</div>
+	  			</div>
+	  			<div class="link">
+	    			<div class="text">Art</div>
+	  			</div>
+	  			<div class="link">
+	    			<div class="text">Social</div>
+	  			</div>
+	  			<div class="link">
+	    			<div class="text">Setup</div>
+	  			</div>
+	  			<div class="link">
+	    			<div class="text">Help</div>
+	  			</div>
+		</div>
+	</div>
+	<div id="s2">
+        {% block content %}
+        {% endblock %}
+	</div>
+	<div id="s3"></div>
+	<div id="s4">
+		<div id="footer">copyright</div>
+	</div>
+	<script  src="./script.js"></script>
+</body>
+
+</html>
