@@ -21,3 +21,8 @@ document.body.onscroll = function () {
     
   }
 };
+
+
+var covers = document.getElementsByClassName("cover");
+var len = covers.length;
+covers[len-1].style.paddingBottom = "0";
