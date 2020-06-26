@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* hide scroll bar */
+  }
+  
+  html,
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color:grey;
+  }
+
+  p {
+      word-break: break-all;
+      white-space: normal;
+      margin-top: 0px;
+  }
+  
+  header {
+    height: 130px;
+    padding: 16px 30px;
+    color:#f5f5f7;
+
+    display: flex;
+    justify-content: space-between; /* important */
+    align-items: center;
+    width: 100%;
+    transition: height 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0px 5px teal;
+    opacity: 0.7;
+  }
+  
+
+  .logo {
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    letter-spacing: 7px;
+    color:#f5f5f7;
+    transition: 0.3s font-size ease;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  
+  li {
+    height: 100%;
+    width: 80px;
+    background-color: transparent;
+    color:#f5f5f7;
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+  }
+
+  section {
+    height: 85vh;
+  }
+
+  .sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  a:hover {
+      color: white;
+  }
+  
+  #bg {
+    height: 100%;
+    background-image: url("http://gear.vogelius.se/-editorials/leica-m262-m9/m262-12.jpg");
+    /* background-image: url("https://live.staticflickr.com/65535/50040749373_af374a972b_k.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  footer {
+      background-color: black;
+      text-align: center;
+      color: cornsilk;
+      padding: 10px;
+      font-size: 11px;
+  }
